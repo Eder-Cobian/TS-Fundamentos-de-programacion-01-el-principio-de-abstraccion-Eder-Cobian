@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "plane.constructor()",
+      "setup": "npm install",
+      "run": "npm run test  plane.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "plane.fire()",
+      "setup": "",
+      "run": "npm run test plane.fire.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "plane.moveUp()",
+      "setup": "",
+      "run": "npm run test plane.moveUp.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "plane.moveDown()",
+      "setup": "",
+      "run": "npm run test plane.moveDown.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "plane.moveLeft()",
+      "setup": "",
+      "run": "npm run test plane.moveLeft.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "plane.moveRight()",
+      "setup": "",
+      "run": "npm run test plane.moveRight.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "property.constructor()",
+      "setup": "",
+      "run": "npm run test property.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "property.getArea()",
+      "setup": "",
+      "run": "npm run test property.getArea.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "property.getPerimeter()",
+      "setup": "",
+      "run": "npm run test property.getPerimeter.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "property.getPrice()",
+      "setup": "",
+      "run": "npm run test property.getPrice.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "number.constructor()",
+      "setup": "",
+      "run": "npm run test number.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "number.isEven()",
+      "setup": "",
+      "run": "npm run test number.isEven.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "number.isPrime()",
+      "setup": "",
+      "run": "npm run test number.isPrime.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "number.isPositive()",
+      "setup": "",
+      "run": "npm run test number.isPositive.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    }
+  ]
+}
