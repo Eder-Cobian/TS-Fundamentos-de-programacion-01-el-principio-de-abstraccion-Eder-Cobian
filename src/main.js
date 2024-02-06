@@ -20,6 +20,8 @@ class Test {
     const propertyA = new Property(10, 25, 3500, 'Av.Universidad #333');
 
     console.log(propertyA.getArea());
+    console.log(propertyA.getPerimeter());
+    console.log(propertyA.getPrice());
   }
 }
 const test = new Test();

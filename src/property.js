@@ -9,4 +9,12 @@ export default class Property {
   getArea() {
     return this.width * this.height;
   }
+
+  getPerimeter() {
+    return 2 * this.width + 2 * this.height;
+  }
+
+  getPrice() {
+    return this.getArea() * this.priceM2;
+  }
 }
