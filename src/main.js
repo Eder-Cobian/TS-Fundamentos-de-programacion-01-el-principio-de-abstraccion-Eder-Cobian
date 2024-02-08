@@ -1,5 +1,6 @@
 import Property from './property.js';
 import Plane from './plane.js';
+import Number from './number.js';
 
 class Test {
   plane() {
@@ -23,7 +24,15 @@ class Test {
     console.log(propertyA.getPerimeter());
     console.log(propertyA.getPrice());
   }
+  number() {
+    const numberA = new Number(3);
+
+    console.log(numberA.isEven());
+    console.log(numberA.isPrime());
+    console.log(numberA.isPositive());
+  }
 }
 const test = new Test();
 test.property();
 test.plane();
+test.number();
